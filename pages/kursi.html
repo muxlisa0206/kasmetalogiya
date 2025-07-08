@@ -1,278 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-    </style>
-    <link rel="stylesheet" href="../css/styles.css" />
-  </head>
-  <body>
-    <section id="curse">
-      <div class="container">
-        <h1 class="curse-title">Курсы обучения</h1>
-        <div class="curse-desc">
-          <img
-            src="../images/curse/значек раннего бронирования.png"
-            alt="bird"
-          />
-          <p>- курсы с возможностью ранней регистрации</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kursi</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <div class="birinchi-qism">
+                <button class="sidebar">
+                    <img src="../images/гамбургер.png" alt="sidebar">
+                </button>
+                <a class="Logo" href="">
+                    <img class="logo" src="../images/logo.jpg" alt="logo">
+                    <p>Учебный центр эстетической косметологии</p>
+                </a>
+                <div class="contact1">
+                    <div class="img">
+                        <img src="../images/Иконка телефон.png телефон.png" alt="telefon">
+                        <p>0 (800) 508-622</p>
+                    </div>
+                    <div class="social">
+                        <img src="../images/иконка facebook.png" alt="facebook">
+                        <img src="../images/иконка Instagram.png" alt="instagram">
+                    </div>
+                    <div class="language">
+                        <img src="../images/russia 1.png" alt="rus">
+                        <img src="../images/Vector (1).png" alt="vector">
+                    </div>
+                </div>
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+            <div class="nav">
+                <ul class="nav-menu">
+                    <li>
+                        <a href="/pages/kursi.html">Курсы обучения</a>
+                    </li>
+                    <li>
+                        <a href="../index.html">Вебинары</a>
+                    </li>
+                    <li>
+                        <a href="stranitsiya.html">Видео-уроки</a>
+                    </li>
+                    <li>
+                        <a href="#">Блог</a>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Прайс</a>
+                    </li>
+                    <li>
+                        <a href="#">Рассписание</a>
+                    </li>
+                    <li>
+                        <a href="#">Акции</a>
+                    </li>
+                    <li>
+                        <a href="#">Магазин</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <ul class="curse-tabs">
-          <li>
-            <a href="">Все направления</a>
-            <ul class="curse-tabs__parts">
-              <li>Эстетическая косметология</li>
-              <li>Иньекционная косметология</li>
-              <li>Лазерная косметология</li>
-            </ul>
-          </li>
-          <li>
-            <a href="">Курсы по косметологии</a>
-            <ul class="curse-tabs__parts">
-              <li>Эстетическая косметология</li>
-              <li>Иньекционная косметология</li>
-              <li>Лазерная косметология</li>
-            </ul>
-          </li>
-          <li>
-            <a href="">Онлайн обучение</a>
-            <ul class="curse-tabs__parts">
-              <li>Эстетическая косметология</li>
-              <li>Иньекционная косметология</li>
-              <li>Лазерная косметология</li>
-            </ul>
-          </li>
-          <li>
-            <a href="">Мастер-классы</a>
-            <ul class="curse-tabs__parts">
-              <li>Эстетическая косметология</li>
-              <li>Иньекционная косметология</li>
-              <li>Лазерная косметология</li>
-            </ul>
-          </li>
-        </ul>
-
-        <div class="curse-cards">
-          <div class="curse-card">
-            <div class="top-content">
-                <h4 class="top-content__title">Курс для медиков</h4>
-                <img src="../images/curse/значек раннего бронирования.png" alt="bird">
-            </div>
-            <h2 class="card-title blue-color">Канюльные техники</h2>
-            <button class="card-btn blue-background">Оффлайн</button>
-            <h4 class="card-date">1 - 4 мая</h4>
-            <div class="card-content">
-              <div class="content-info">
-                <span class="blue-background"></span>
-                <p>
-                  Краткое описание Что-то о курсе Пару фактов Краткое описание
-                </p>
-              </div>
-              <img class="first" src="../images/curse/women-head.png" alt="women-head">
-                            <img class="second" src="../images/curse/image 2.png" alt="women-head">
-
-            </div>
-            <p class="curse-subtitle">Свободно 2 из 15 мест</p>
-            <a class="link1 blue-background" href="">Зарегистрироваться</a>
-            <a class="link2 blue-color blue-light-background" href="">Подробнее</a>
-          </div>
-
-          <div class="curse-card">
-            <div class="top-content">
-                <h4 class="top-content__title">Курс для медиков</h4>
-                <img src="../images/curse/значек раннего бронирования.png" alt="bird">
-            </div>
-            <h2 class="card-title green-color">Мезотерапия и Биоревителизация</h2>
-            <button class="card-btn green-background">Оффлайн</button>
-            <h4 class="card-date">1 - 4 мая</h4>
-            <div class="card-content">
-              <div class="content-info">
-                <span class="green-background"></span>
-                <p>
-                  Краткое описание Что-то о курсе Пару фактов Краткое описание
-                </p>
-              </div>
-              <img class="first" src="../images/curse/women-head.png" alt="women-head">
-                            <img class="second" src="../images/curse/image 2.png" alt="women-head">
-
-            </div>
-            <p class="curse-subtitle">Свободно 2 из 15 мест</p>
-            <a class="link1 green-background" href="">Зарегистрироваться</a>
-            <a class="link2 green-color green-light-background" href="">Подробнее</a>
-          </div>
-
-          <div class="curse-card">
-            <div class="top-content">
-                <h4 class="top-content__title">Курс для медиков</h4>
-                <img src="../images/curse/значек раннего бронирования.png" alt="bird">
-            </div>
-            <h2 class="card-title blue-color1">Канюльные техники</h2>
-            <button class="card-btn blue-background1">Оффлайн</button>
-            <h4 class="card-date">1 - 4 мая</h4>
-            <div class="card-content">
-              <div class="content-info">
-                <span class="blue-background1"></span>
-                <p>
-                  Краткое описание Что-то о курсе Пару фактов Краткое описание
-                </p>
-              </div>
-              <img class="first" src="../images/curse/women-head.png" alt="women-head">
-                            <img class="second" src="../images/curse/image 2.png" alt="women-head">
-
-            </div>
-            <p class="curse-subtitle">Свободно 2 из 15 мест</p>
-            <a class="link1 blue-background1" href="">Зарегистрироваться</a>
-            <a class="link2 blue-color1 blue-light-background1" href="">Подробнее</a>
-          </div>
-
-          <div class="curse-card">
-            <div class="top-content">
-                <h4 class="top-content__title">Курс для медиков</h4>
-                <img src="../images/curse/значек раннего бронирования.png" alt="bird">
-            </div>
-            <h2 class="card-title green-color">Мезотерапия и Биоревителизация</h2>
-            <button class="card-btn green-background">Оффлайн</button>
-            <h4 class="card-date">1 - 4 мая</h4>
-            <div class="card-content">
-              <div class="content-info">
-                <span class="green-background"></span>
-                <p>
-                  Краткое описание Что-то о курсе Пару фактов Краткое описание
-                </p>
-              </div>
-              <img class="first" src="../images/curse/women-head.png" alt="women-head">
-                            <img class="second" src="../images/curse/image 2.png" alt="women-head">
-
-            </div>
-            <p class="curse-subtitle">Свободно 2 из 15 мест</p>
-            <a class="link1 green-background" href="">Зарегистрироваться</a>
-            <a class="link2 green-color green-light-background" href="">Подробнее</a>
-          </div>
-
-          <div class="curse-card">
-            <div class="top-content">
-                <h4 class="top-content__title">Курс для медиков</h4>
-                <img src="../images/curse/значек раннего бронирования.png" alt="bird">
-            </div>
-            <h2 class="card-title blue-color1">Канюльные техники</h2>
-            <button class="card-btn blue-background1">Оффлайн</button>
-            <h4 class="card-date">1 - 4 мая</h4>
-            <div class="card-content">
-              <div class="content-info">
-                <span class="blue-background1"></span>
-                <p>
-                  Краткое описание Что-то о курсе Пару фактов Краткое описание
-                </p>
-              </div>
-              <img class="first" src="../images/curse/women-head.png" alt="women-head">
-                            <img class="second" src="../images/curse/image 2.png" alt="women-head">
-
-            </div>
-            <p class="curse-subtitle">Свободно 2 из 15 мест</p>
-            <a class="link1 blue-background1" href="">Зарегистрироваться</a>
-            <a class="link2 blue-color1 blue-light-background1" href="">Подробнее</a>
-          </div>
-
-          <div class="curse-card">
-            <div class="top-content">
-                <h4 class="top-content__title">Курс для медиков</h4>
-                <img src="../images/curse/значек раннего бронирования.png" alt="bird">
-            </div>
-            <h2 class="card-title green-color">Мезотерапия и Биоревителизация</h2>
-            <button class="card-btn green-background">Оффлайн</button>
-            <h4 class="card-date">1 - 4 мая</h4>
-            <div class="card-content">
-              <div class="content-info">
-                <span class="green-background"></span>
-                <p>
-                  Краткое описание Что-то о курсе Пару фактов Краткое описание
-                </p>
-              </div>
-              <img class="first" src="../images/curse/women-head.png" alt="women-head">
-                            <img class="second" src="../images/curse/image 2.png" alt="women-head">
-
-            </div>
-            <p class="curse-subtitle">Свободно 2 из 15 мест</p>
-            <a class="link1 green-background" href="">Зарегистрироваться</a>
-            <a class="link2 green-color green-light-background" href="">Подробнее</a>
-          </div>
-
-          <div class="curse-card">
-            <div class="top-content">
-                <h4 class="top-content__title">Курс для медиков</h4>
-                <img src="../images/curse/значек раннего бронирования.png" alt="bird">
-            </div>
-            <h2 class="card-title blue-color1">Канюльные техники</h2>
-            <button class="card-btn blue-background1">Оффлайн</button>
-            <h4 class="card-date">1 - 4 мая</h4>
-            <div class="card-content">
-              <div class="content-info">
-                <span class="blue-background1"></span>
-                <p>
-                  Краткое описание Что-то о курсе Пару фактов Краткое описание
-                </p>
-              </div>
-              <img class="first" src="../images/curse/women-head.png" alt="women-head">
-                            <img class="second" src="../images/curse/image 2.png" alt="women-head">
-
-            </div>
-            <p class="curse-subtitle">Свободно 2 из 15 мест</p>
-            <a class="link1 blue-background1" href="">Зарегистрироваться</a>
-            <a class="link2 blue-color1 blue-light-background1" href="">Подробнее</a>
-          </div>
-
-          <div class="curse-card">
-            <div class="top-content">
-                <h4 class="top-content__title">Курс для медиков</h4>
-                <img src="../images/curse/значек раннего бронирования.png" alt="bird">
-            </div>
-            <h2 class="card-title blue-color">Канюльные техники</h2>
-            <button class="card-btn blue-background">Оффлайн</button>
-            <h4 class="card-date">1 - 4 мая</h4>
-            <div class="card-content">
-              <div class="content-info">
-                <span class="blue-background"></span>
-                <p>
-                  Краткое описание Что-то о курсе Пару фактов Краткое описание
-                </p>
-              </div>
-              <img class="first" src="../images/curse/women-head.png" alt="women-head">
-                            <img class="second" src="../images/curse/image 2.png" alt="women-head">
-
-            </div>
-            <p class="curse-subtitle">Свободно 2 из 15 мест</p>
-            <a class="link1 blue-background" href="">Зарегистрироваться</a>
-            <a class="link2 blue-color blue-light-background" href="">Подробнее</a>
-          </div>
-          
-        </div>
-
-        <ul class="pagination">
-            <li>
-                <button type="button"><</button>
-            </li>
-            <li>
-                1
-            </li>
-            <li>2</li>
-            <li>3
-
-            </li>
-            <li>4</li>
-            <li>5</li>
-            <li><button>></button></li>
-        </ul>
       </div>
-    </section>
-  </body>
+    </header>
+    <main>
+      <section id="curse">
+        <div class="container">
+          <ul class="curse-tabs">
+            <li>
+              <a href="">Все направления</a>
+              <ul class="curse-tabs__parts">
+                <li>Эстетическая косметология</li>
+                <li>Иньекционная косметология</li>
+                <li>Лазерная косметология</li>
+              </ul>
+            </li>
+            <li>
+              <a href="">Курсы по косметологии</a>
+              <ul class="curse-tabs__parts">
+                <li>Эстетическая косметология</li>
+                <li>Иньекционная косметология</li>
+                <li>Лазерная косметология</li>
+              </ul>
+            </li>
+            <li>
+              <a href="">Онлайн обучение</a>
+              <ul class="curse-tabs__parts">
+                <li>Эстетическая косметология</li>
+                <li>Иньекционная косметология</li>
+                <li>Лазерная косметология</li>
+              </ul>
+            </li>
+            <li>
+              <a href="">Мастер-классы</a>
+              <ul class="curse-tabs__parts">
+                <li>Эстетическая косметология</li>
+                <li>Иньекционная косметология</li>
+                <li>Лазерная косметология</li>
+              </ul>
+            </li>
+          </ul>
+  
+          <div class="curse-cards">
+            <div class="curse-card">
+              <div class="top-content">
+                  <h4 class="top-content__title">Курс для медиков</h4>
+                  <img src="../images/curse/значек раннего бронирования.png" alt="bird">
+              </div>
+              <h2 class="card-title blue-color">Канюльные техники</h2>
+              <button class="card-btn blue-background">Оффлайн</button>
+              <h4 class="card-date">1 - 4 мая</h4>
+              <div class="card-content">
+                <div class="content-info">
+                  <span class="blue-background"></span>
+                  <p>
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
+                </div>
+                <img class="first" src="../images/curse/women-head.png" alt="women-head">
+                              <img class="second" src="../images/curse/image 2.png" alt="women-head">
+  
+              </div>
+              <p class="curse-subtitle">Свободно 2 из 15 мест</p>
+              <a class="link1 blue-background" href="">Зарегистрироваться</a>
+              <a class="link2 blue-color blue-light-background" href="">Подробнее</a>
+            </div>
+  
+            <div class="curse-card">
+              <div class="top-content">
+                  <h4 class="top-content__title">Курс для медиков</h4>
+                  <img src="../images/curse/значек раннего бронирования.png" alt="bird">
+              </div>
+              <h2 class="card-title green-color">Мезотерапия и Биоревителизация</h2>
+              <button class="card-btn green-background">Оффлайн</button>
+              <h4 class="card-date">1 - 4 мая</h4>
+              <div class="card-content">
+                <div class="content-info">
+                  <span class="green-background"></span>
+                  <p>
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
+                </div>
+                <img class="first" src="../images/curse/women-head.png" alt="women-head">
+                              <img class="second" src="../images/curse/image 2.png" alt="women-head">
+  
+              </div>
+              <p class="curse-subtitle">Свободно 2 из 15 мест</p>
+              <a class="link1 green-background" href="">Зарегистрироваться</a>
+              <a class="link2 green-color green-light-background" href="">Подробнее</a>
+            </div>
+  
+            <div class="curse-card">
+              <div class="top-content">
+                  <h4 class="top-content__title">Курс для медиков</h4>
+                  <img src="../images/curse/значек раннего бронирования.png" alt="bird">
+              </div>
+              <h2 class="card-title blue-color1">Канюльные техники</h2>
+              <button class="card-btn blue-background1">Оффлайн</button>
+              <h4 class="card-date">1 - 4 мая</h4>
+              <div class="card-content">
+                <div class="content-info">
+                  <span class="blue-background1"></span>
+                  <p>
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
+                </div>
+                <img class="first" src="../images/curse/women-head.png" alt="women-head">
+                              <img class="second" src="../images/curse/image 2.png" alt="women-head">
+  
+              </div>
+              <p class="curse-subtitle">Свободно 2 из 15 мест</p>
+              <a class="link1 blue-background1" href="">Зарегистрироваться</a>
+              <a class="link2 blue-color1 blue-light-background1" href="">Подробнее</a>
+            </div>
+  
+            <div class="curse-card">
+              <div class="top-content">
+                  <h4 class="top-content__title">Курс для медиков</h4>
+                  <img src="../images/curse/значек раннего бронирования.png" alt="bird">
+              </div>
+              <h2 class="card-title green-color">Мезотерапия и Биоревителизация</h2>
+              <button class="card-btn green-background">Оффлайн</button>
+              <h4 class="card-date">1 - 4 мая</h4>
+              <div class="card-content">
+                <div class="content-info">
+                  <span class="green-background"></span>
+                  <p>
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
+                </div>
+                <img class="first" src="../images/curse/women-head.png" alt="women-head">
+                              <img class="second" src="../images/curse/image 2.png" alt="women-head">
+  
+              </div>
+              <p class="curse-subtitle">Свободно 2 из 15 мест</p>
+              <a class="link1 green-background" href="">Зарегистрироваться</a>
+              <a class="link2 green-color green-light-background" href="">Подробнее</a>
+            </div>
+  
+            <div class="curse-card">
+              <div class="top-content">
+                  <h4 class="top-content__title">Курс для медиков</h4>
+                  <img src="../images/curse/значек раннего бронирования.png" alt="bird">
+              </div>
+              <h2 class="card-title blue-color1">Канюльные техники</h2>
+              <button class="card-btn blue-background1">Оффлайн</button>
+              <h4 class="card-date">1 - 4 мая</h4>
+              <div class="card-content">
+                <div class="content-info">
+                  <span class="blue-background1"></span>
+                  <p>
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
+                </div>
+                <img class="first" src="../images/curse/women-head.png" alt="women-head">
+                              <img class="second" src="../images/curse/image 2.png" alt="women-head">
+  
+              </div>
+              <p class="curse-subtitle">Свободно 2 из 15 мест</p>
+              <a class="link1 blue-background1" href="">Зарегистрироваться</a>
+              <a class="link2 blue-color1 blue-light-background1" href="">Подробнее</a>
+            </div>
+  
+            <div class="curse-card">
+              <div class="top-content">
+                  <h4 class="top-content__title">Курс для медиков</h4>
+                  <img src="../images/curse/значек раннего бронирования.png" alt="bird">
+              </div>
+              <h2 class="card-title green-color">Мезотерапия и Биоревителизация</h2>
+              <button class="card-btn green-background">Оффлайн</button>
+              <h4 class="card-date">1 - 4 мая</h4>
+              <div class="card-content">
+                <div class="content-info">
+                  <span class="green-background"></span>
+                  <p>
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
+                </div>
+                <img class="first" src="../images/curse/women-head.png" alt="women-head">
+                              <img class="second" src="../images/curse/image 2.png" alt="women-head">
+  
+              </div>
+              <p class="curse-subtitle">Свободно 2 из 15 мест</p>
+              <a class="link1 green-background" href="">Зарегистрироваться</a>
+              <a class="link2 green-color green-light-background" href="">Подробнее</a>
+            </div>
+  
+            <div class="curse-card">
+              <div class="top-content">
+                  <h4 class="top-content__title">Курс для медиков</h4>
+                  <img src="../images/curse/значек раннего бронирования.png" alt="bird">
+              </div>
+              <h2 class="card-title blue-color1">Канюльные техники</h2>
+              <button class="card-btn blue-background1">Оффлайн</button>
+              <h4 class="card-date">1 - 4 мая</h4>
+              <div class="card-content">
+                <div class="content-info">
+                  <span class="blue-background1"></span>
+                  <p>
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
+                </div>
+                <img class="first" src="../images/curse/women-head.png" alt="women-head">
+                              <img class="second" src="../images/curse/image 2.png" alt="women-head">
+  
+              </div>
+              <p class="curse-subtitle">Свободно 2 из 15 мест</p>
+              <a class="link1 blue-background1" href="">Зарегистрироваться</a>
+              <a class="link2 blue-color1 blue-light-background1" href="">Подробнее</a>
+            </div>
+  
+            <div class="curse-card">
+              <div class="top-content">
+                  <h4 class="top-content__title">Курс для медиков</h4>
+                  <img src="../images/curse/значек раннего бронирования.png" alt="bird">
+              </div>
+              <h2 class="card-title blue-color">Канюльные техники</h2>
+              <button class="card-btn blue-background">Оффлайн</button>
+              <h4 class="card-date">1 - 4 мая</h4>
+              <div class="card-content">
+                <div class="content-info">
+                  <span class="blue-background"></span>
+                  <p>
+                    Краткое описание Что-то о курсе Пару фактов Краткое описание
+                  </p>
+                </div>
+                <img class="first" src="../images/curse/women-head.png" alt="women-head">
+                              <img class="second" src="../images/curse/image 2.png" alt="women-head">
+  
+              </div>
+              <p class="curse-subtitle">Свободно 2 из 15 мест</p>
+              <a class="link1 blue-background" href="">Зарегистрироваться</a>
+              <a class="link2 blue-color blue-light-background" href="">Подробнее</a>
+            </div>
+            
+          </div>
+  
+          <ul class="pagination">
+              <li>
+                  <button type="button"><</button>
+              </li>
+              <li>
+                  1
+              </li>
+              <li>2</li>
+              <li>3
+  
+              </li>
+              <li>4</li>
+              <li>5</li>
+              <li><button>></button></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+</body>
 </html>
