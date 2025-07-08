@@ -81,3 +81,283 @@ a{
         text-align: end;
     }
 }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.blue-color1{
+  color: #00A896;
+}
+
+.blue-background1{
+  background-color: #00A896;
+}
+
+.blue-light-background1{
+  background-color: #00A8961A;
+}
+
+.blue-color{
+  color: #4340B4;
+}
+
+.blue-background{
+  background-color: #4340B4;
+}
+
+.blue-light-background{
+  background-color: #4340B41A;
+}
+
+.green-color{
+  color: #55A630;
+}
+
+.green-background{
+  background-color: #55A630;
+}
+
+.green-light-background{
+  background-color: #ECF9EB;
+}
+
+#curse {
+  padding-top: 57px;
+  padding-bottom: 100px;
+}
+
+.curse-title {
+  color: #424242;
+  font-size: 35px;
+  text-align: center;
+  font-family: 600;
+  text-transform: uppercase;
+}
+
+.curse-desc,
+.curse-tabs {
+  display: flex;
+  align-items: center;
+}
+
+.curse-desc {
+  justify-content: center;
+  margin-top: 54px;
+  gap: 30px;
+  font-size: 18px;
+  color: #424242;
+}
+
+.curse-tabs {
+  margin-top: 30px;
+  border: 1px solid #c7f8c2;
+  font-size: 18px;
+  justify-content: space-between;
+  overflow-y: visible;
+}
+
+
+.curse-tabs li {
+  width: 100%;
+  position: relative;
+  transition: 1s;
+}
+
+.curse-tabs li a {
+  width: 100%;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border: 1px solid #c7f8c2;
+}
+
+.curse-tabs li:first-child a {
+  background-color: #c7f8c2;
+}
+
+.curse-tabs li a {
+  color: black;
+  transition: 0.5s;
+}
+
+.curse-tabs li:hover a {
+  color: #60f250;
+  font-weight: bold;
+}
+
+.curse-tabs__parts{
+  display: none;
+  width: 100%;
+ position: absolute;
+ background-color: white;
+ box-shadow: 0px 2px 5px #C7F8C2;
+ padding: 33px 23px;
+ border-radius: 5px;
+ border-top-left-radius: 0;
+ border-top-right-radius: 0;
+ flex-direction: column;
+ gap: 30px;
+ left: -1px;
+ opacity: 0;
+ transition: 1s;
+
+}
+
+.curse-tabs li:hover .curse-tabs__parts{
+  display: flex;
+  opacity: 1;
+  transition: 1s;
+
+}
+
+.curse-tabs__parts li {
+  white-space: nowrap;
+  font-size: 90%;
+}
+
+
+.curse-cards{
+  margin-top: 54px;
+  margin-bottom: 40px;
+  gap: 40px;
+
+  display: grid;
+  grid-template-columns: repeat(3 , auto);
+  
+}
+
+.curse-card{
+  padding-top: 16px;
+  max-width: 359px;
+
+  box-shadow: 0px 0px  10px #e4e4e480;
+}
+
+.curse-card .card-content img{
+  width: 137px;
+  height: 157px;
+}
+
+.curse-card .card-content .second{
+  display: block;
+}
+
+.curse-card .card-content .first{
+  display: none;
+}
+
+.curse-card .card-content:hover .first{
+   display: block;
+}
+
+.curse-card .card-content:hover .second{
+  display: none;
+}
+
+.top-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.top-content h1{
+  font-size: 18px;
+  color: #424242;
+}
+
+.card-title{
+  font-size: 32px;
+  margin-left: 16px;
+  margin-top: 18px;
+  line-height: 100%;
+}
+
+
+
+.card-btn{
+  width: 166px;
+  height: 40px;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 23px;
+  margin-left: 18px;
+}
+
+.card-date{
+  font-size: 20px;
+  color: #424242;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.top-content__title{
+  color: #424242;
+}
+
+.card-content{
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.content-info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content-info span{
+  width: 6px;
+  height: 104px;
+  display: block;
+}
+
+.curse-subtitle{
+  font-size: 18px;
+  color: #424242;
+  margin-left: 16px;
+  margin-top: 54px;
+  font-weight: 550;
+}
+
+
+.link1 , .link2{
+  height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.link1{
+  color: white;
+  margin-top: 20px;
+}
+
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  color: #424242;
+  margin-top: 81px;
+}
+
+.pagination button{
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  color: #424242;
+  cursor: pointer;
+}
+
